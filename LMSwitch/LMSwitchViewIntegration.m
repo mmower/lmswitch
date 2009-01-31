@@ -15,10 +15,8 @@
 
 - (void)ibPopulateKeyPaths:(NSMutableDictionary *)keyPaths {
     [super ibPopulateKeyPaths:keyPaths];
-	
-	// Remove the comments and replace "MyFirstProperty" and "MySecondProperty" 
-	// in the following line with a list of your view's KVC-compliant properties.
-    [[keyPaths objectForKey:IBAttributeKeyPaths] addObjectsFromArray:[NSArray arrayWithObjects:/* @"MyFirstProperty", @"MySecondProperty",*/ nil]];
+    	
+    [[keyPaths objectForKey:IBAttributeKeyPaths] addObjectsFromArray:[NSArray arrayWithObjects:@"enabled",@"positions",@"current",nil]];
 }
 
 - (void)ibPopulateAttributeInspectorClasses:(NSMutableArray *)classes {

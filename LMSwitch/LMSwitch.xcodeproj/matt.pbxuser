@@ -133,6 +133,8 @@
 		launchableReference = C096A9350C03CEAB00263BB0 /* Interface Builder.app */;
 		libgmallocEnabled = 0;
 		name = "Interface Builder";
+		savedGlobals = {
+		};
 		sourceDirectories = (
 		);
 		startupPath = "<<ProductDirectory>>";

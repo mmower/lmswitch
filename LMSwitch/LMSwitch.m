@@ -14,7 +14,7 @@
 }
 
 - (NSArray *)requiredFrameworks {
-    return [NSArray arrayWithObjects:[NSBundle bundleWithIdentifier:@"com.yourcompany.LMSwitch"], nil];
+    return [NSArray arrayWithObjects:[NSBundle bundleWithIdentifier:@"com.lucidmac.LMSwitch"], nil];
 }
 
 @end
